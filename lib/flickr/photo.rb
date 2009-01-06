@@ -56,8 +56,8 @@ class Flickr::Photos::Photo
   end
 
   def video_url
-    if video_player_size = size_hash['video player']
-      video_player_size.source
+    if size_hash['video player']
+      size_hash['video player'].source
     end
   end
 
