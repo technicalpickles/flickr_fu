@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photo id="2729556270" secret="eee23fb14a" server="3207" farm="4" dateuploaded="1217794663" isfavorite="0" license="4" rotation="0" originalsecret="e940a69ebf" originalformat="png" media="video">
+	<owner nsid="24461004@N00" username="girl_named_fred" realname="Cynthia Donovan" location="Pawtucket, USA" />
+	<title>bust a move?</title>
+	<description />
+	<visibility ispublic="1" isfriend="0" isfamily="0" />
+	<dates posted="1217794663" taken="2008-08-03 13:17:43" takengranularity="0" lastupdate="1217859448" />
+	<editability cancomment="0" canaddmeta="0" />
+	<usage candownload="1" canblog="0" canprint="0" />
+
+	<comments>0</comments>
+	<notes />
+	<tags>
+		<tag id="251642-2729556270-6613225" author="24461004@N00" raw="babysquash" machine_tag="0">babysquash</tag>
+		<tag id="251642-2729556270-8754" author="24461004@N00" raw="august" machine_tag="0">august</tag>
+		<tag id="251642-2729556270-30529" author="24461004@N00" raw="anita" machine_tag="0">anita</tag>
+		<tag id="251642-2729556270-65815" author="24461004@N00" raw="waltham" machine_tag="0">waltham</tag>
+
+		<tag id="251642-2729556270-1853" author="24461004@N00" raw="liberty" machine_tag="0">liberty</tag>
+		<tag id="251642-2729556270-20506" author="24461004@N00" raw="cousin" machine_tag="0">cousin</tag>
+		<tag id="251642-2729556270-2079514" author="24461004@N00" raw="brucespringstein" machine_tag="0">brucespringstein</tag>
+	</tags>
+	<urls>
+		<url type="photopage">http://www.flickr.com/photos/girl_named_fred/2729556270/</url>
+	</urls>
+
+	<video ready="1" failed="0" pending="0" duration="" width="320" height="240" />
+</photo>
+</rsp>
+

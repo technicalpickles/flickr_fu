@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<sizes canblog="0" canprint="0" candownload="1">
+	<size label="Square" width="75" height="75" source="http://farm4.static.flickr.com/3207/2729556270_eee23fb14a_s.jpg" url="http://www.flickr.com/photos/girl_named_fred/2729556270/sizes/sq/" media="photo" />
+	<size label="Thumbnail" width="100" height="75" source="http://farm4.static.flickr.com/3207/2729556270_eee23fb14a_t.jpg" url="http://www.flickr.com/photos/girl_named_fred/2729556270/sizes/t/" media="photo" />
+	<size label="Small" width="240" height="180" source="http://farm4.static.flickr.com/3207/2729556270_eee23fb14a_m.jpg" url="http://www.flickr.com/photos/girl_named_fred/2729556270/sizes/s/" media="photo" />
+	<size label="Medium" width="320" height="240" source="http://farm4.static.flickr.com/3207/2729556270_eee23fb14a.jpg" url="http://www.flickr.com/photos/girl_named_fred/2729556270/sizes/m/" media="photo" />
+	<size label="Original" width="320" height="240" source="http://farm4.static.flickr.com/3207/2729556270_e940a69ebf_o.png" url="http://www.flickr.com/photos/girl_named_fred/2729556270/sizes/o/" media="photo" />
+	<size label="Video Player" width="320" height="240" source="http://www.flickr.com/apps/video/stewart.swf?v=63881&amp;photo_id=2729556270&amp;photo_secret=eee23fb14a" url="http://www.flickr.com/photos/girl_named_fred/2729556270/" media="video" />
+</sizes>
+</rsp>
+
+
