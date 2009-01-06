@@ -111,6 +111,8 @@ class Flickr::Photos < Flickr::Base
   #     Number of photos to return per page. If this argument is omitted, it defaults to 100. The maximum allowed value is 500.
   # * page (Optional)
   #     The page of results to return. If this argument is omitted, it defaults to 1.
+  # * media (Optional)
+  #     The type of media to search for. 'photo', 'video', or 'both' are allowed arguments, with 'both' being the default.
   # 
   def search(options)
     options.merge!({:extras => "license,date_upload,date_taken,owner_name,icon_server,original_format,last_update,geo,tags,machine_tags,o_dims,views,media"})
@@ -143,6 +145,8 @@ class Flickr::Photos < Flickr::Base
   #     Number of photos to return per page. If this argument is omitted, it defaults to 100. The maximum allowed value is 500.
   # * page (Optional)
   #     The page of results to return. If this argument is omitted, it defaults to 1.
+  # * media (Optional)
+  #     The type of media to search for. 'photo', 'video', or 'both' are allowed arguments, with 'both' being the default.
   # 
   def get_recent(options)
     options.merge!({:extras => "license,date_upload,date_taken,owner_name,icon_server,original_format,last_update,geo,tags,machine_tags,o_dims,views,media"})
