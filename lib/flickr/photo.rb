@@ -55,6 +55,12 @@ class Flickr::Photos::Photo
 	url_photopage
   end
 
+  def video_url
+    if video_player_size = size_hash['video player']
+      video_player_size.source
+    end
+  end
+
   # save the current photo to the local computer
   # 
   # == Params

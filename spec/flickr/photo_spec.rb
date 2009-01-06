@@ -73,4 +73,33 @@ describe Flickr::Photos::Photo do
 	end
   end
 
+  describe ".video_url" do
+    it "should return nil, since it's not a video" do
+      @photo.video_url.should == nil
+    end
+  end
+
+end
+
+describe Flickr::Photos::Photo, "but it's really a video" do
+
+  include PhotoSpecHelper
+  
+  before :all do
+    @info_xml = File.read(File.dirname(__FILE__) + "/../fixtures/flickr/videos/get_info-0.xml")
+    @sizes_xml = File.read(File.dirname(__FILE__) + "/../fixtures/flickr/videos/get_sizes-0.xml")
+  end
+  
+  before :each do
+    @flickr = SpecHelper.flickr
+    #@flickr.stub!(:request_over_http).and_return(info_xml)
+    @photo = Flickr::Photos::Photo.new(@flickr, valid_photo_attributes)
+  end
+
+  describe ".video_url" do
+    it "should return something sane" do
+      @flickr.should_receive(:request_over_http).and_return(@sizes_xml)
+      @photo.video_url.should == "http://www.flickr.com/apps/video/stewart.swf?v=63881&photo_id=2729556270&photo_secret=eee23fb14a"
+    end
+  end
 end
